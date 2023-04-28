@@ -1,22 +1,16 @@
 #region Main
 start-pm: |
-  Hey there! my name is **{}**.
-  Any questions on how to use me? use /help
-  Join Our [Group](https://t.me/userbotindo) If You wanna Report Issue 🙂
-  I'm here to make your group management fun and easy!
-  **Managed With ❤️ By :** [UserbotIndo Team](https://t.me/userbotindo)
-  Wanna Add me to your Group? Just click the button below!
+  **Ara Ara~ Hello {},**
+  I am Akeno Himejima. I am the oldest daughter of the Himejima clan \
+  and the wielder of Thunder and Lightning.
+  Want me to manage your group? Add me in.
 help-pm: |
   Hello there! My name is **{}**.
-  I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+  I'm a group management bot with a few fun extras! Have a look at the following for an idea of some of \
   the things I can help you with.
   **Main** commands available:
   × /start: Starts me, can be used to check i'm alive or not.
   × /help: PM's you this message.
-  × /setlang: Change your language preference.
-  × /donate: Get information on how to support me.
-
-  Anjani settings are also configurable on our dashboard, [click here](https://userbotindo.com/dashboard?ref=anjani) to open dashboard.
 start-chat: Sending you a warm hi & wishing your day is a happy one!
 help-chat: Contact me in PM to get the list of possible commands.
 add-to-group-button: Add to Group 👥
@@ -25,10 +19,8 @@ help-chat-button: Help
 dashboard-button: Dashboard
 back-button: ⬅️ Back
 donate: |
-  Hi, glad to see you want to donate!
-  You can donate to us on [our site](https://userbotindo.com/donate?ref=anjani).
-  Our team is fully handled by volunteers,, and every little helps to improve our services.
-  Thank you for your support!
+  Araa, glad to see you want to donate ~
+  Currently, we are not looking for any donations.
 markdown-helper: |
   Markdown is a very powerful formatting tool supported by telegram. {} has some enhancements, to make sure that saved messages are correctly parsed, and to allow you to create buttons.\n
   <b>Supported Markdown:</b>
@@ -444,7 +436,7 @@ warn-removed: |
   Admin {} removed this warn for {}.
 warn-user-max: Max warn exceed, {} has been kicked from group.
 warn-message: |
-  User {} has been warned '{}/{}'.\n\nReason: __{}__
+  User {} has been warned [{}/{}].\n\nReason: __{}__
 warn-message-list: "User {} have '{}/{}' warns.\nThe reasons are:\n{}"
 warn-no-user: Give me a user to warn.
 warn-default-reason: No reason given.
