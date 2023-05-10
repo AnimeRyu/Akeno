@@ -11,6 +11,8 @@ RUN apt-get -qq install -y --no-install-recommends \
     git \
     gnupg2
 
+RUN apt-get install build-essential gcc -y
+
 # copy pyproject.toml and poetry.lock for layer caching
 COPY pyproject.toml poetry.lock ./
 
